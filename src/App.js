@@ -60,10 +60,6 @@ class App extends Component {
 
   handleAddItem() {
     const {
-      addItems
-    } = this.props;
-
-    const {
       items,
       newItem
     } = this.state;
@@ -81,31 +77,23 @@ class App extends Component {
     // With access to the TODO Microservice 
     // This request would be  completed and updated in store.
     
-    // return addItems(item);
+    // return this.props.addItems(item);
   }
 
   handleEditItem(id, updates) {
-    const {
-      editItems
-    } = this.props;
-
     // This is commented out to prevent breaking 
     // With access to the TODO Microservice 
     // This request would be  completed and updated in store.
 
-    // return editItems(id, updates);
+    // return this.props.editItems(id, updates);
   }
 
   handleDeleteItem(id,) {
-    const {
-      deleteItem
-    } = this.props;
-
     // This is commented out to prevent breaking 
     // With access to the TODO Microservice 
     // This request would be  completed and updated in store.
 
-    // return deleteItem(id);
+    // return this.props.deleteItem(id);
   }
 
   handleUpdateItem(id, message) {
