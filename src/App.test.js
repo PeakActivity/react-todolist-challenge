@@ -1,1 +1,14 @@
-// write a test that tests the App component here...
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+// Utils
+import store from './utils';
+
+it('App renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App 
+    store={store}
+  />, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
