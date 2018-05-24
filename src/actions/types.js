@@ -1,1 +1,12 @@
 // define action types here...
+export const GET_TODO_LIST = 'GET_TODOS'
+export const ADD_TODO = 'ADD_TODO'
+export const UPDATE_TODO = 'UPDATE_TODO'
+export const DELETE_TODO = 'DELETE_TODO'
+export const ADD_ERROR_MESSAGE = 'ADD_ERROR_MESSAGE'
+export const UPDATE_ERROR_MESSAGE = 'UPDATE_ERROR_MESSAGE'
+export const REMOVE_TODO = 'REMOVE_TODO'
+export const GET_TODOS = 'GET_TODOS'
+export const NOTIFICATION = 'NOTIFICATION'
+export const ACTION_STATUS = 'ACTION_STATUS'
+export const DELETE_ERROR_MESSAGE = 'DELETE_ERROR_MESSAGE'
